@@ -10,7 +10,7 @@ app.use(async (ctx, next) => {
 })
 
 app.use(async ctx => {
-  ctx.body = 'Hello from koa.js!'
+  ctx.body = 'Hello from koa.js!hahahahha'
 })
 
 module.exports = app.callback()
